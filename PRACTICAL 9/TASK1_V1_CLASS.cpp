@@ -20,8 +20,8 @@ public:
 int main()
 {
     Student sam,john;
-    sam.Assign(3,6772697489,"Delhi");
-    john.Assign(7,5463749509,"Dehradun");
+    sam.Assign(56,9875462310,"Dehradun");
+    john.Assign(27,1236549870,"Dehradun");
     sam.print("Sam");
     cout<<endl;
     john.print("John");
