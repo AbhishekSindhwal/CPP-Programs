@@ -1,0 +1,8 @@
+    
+Output: terminate called after throwing an instance of 'char'
+Reason: because we are throwing an exception of char instance but
+        but in the program there is no caatch block whick can catch
+        char instance and there is also no default catch block which
+        can catch every type of exception. 
+        So when an exception is thrown and not caught anywhere, then 
+        the program terminates abnormally.

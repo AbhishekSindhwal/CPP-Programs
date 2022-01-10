@@ -1,0 +1,6 @@
+Output: Default Exception....
+Reason: Because when we throw Exception of char instance
+          then it will firstly find where the char instance
+          is catching but there is no catch block for char.
+          catch(...)this will catch every type of exception
+          that's why catch(...) block is executed.
